@@ -2,7 +2,7 @@
 const hacker1 = "Raquel";
 // console.log(`The driver's name is ${hacker1}`);
 
-// const hacker2 = "Raquel";
+const hacker2 = "Judit";
 // console.log(`The navigator's name is ${hacker2}`);
 // Iteration 2: Conditionals
 // if (hacker1.length > hacker2.length) {
@@ -19,10 +19,16 @@ const hacker1 = "Raquel";
 //   );
 // }
 // Iteration 3: Loops
-const nameUpperCase = hacker1.toUpperCase().split(" ");
+const driversUpperCase = hacker1.toUpperCase();
 let nameWithSpaces = "";
-for (let i = 0; i <= nameUpperCase.length; i++) {
-  let letterSpace = nameUpperCase[i] + " ";
-  nameWithSpaces += letterSpace;
+for (let i = 0; i < driversUpperCase.length; i++) {
+  nameWithSpaces += driversUpperCase[i] + " ";
 }
-console.log(nameWithSpaces);
+// console.log(nameWithSpaces);
+
+let navigatorsReverse = "";
+for (let i = hacker2.length; i > hacker2.length; i--) {
+  navigatorsReverse += hacker2[i];
+}
+
+console.log(navigatorsReverse);
