@@ -1,34 +1,38 @@
 // Iteration 1: Names and Input
-const hacker1 = "Raquel";
-// console.log(`The driver's name is ${hacker1}`);
+const hacker1 = "Andreu";
+console.log(`The driver's name is ${hacker1}`);
 
-const hacker2 = "Joaquim";
-// console.log(`The navigator's name is ${hacker2}`);
+const hacker2 = "Miquel";
+console.log(`The navigator's name is ${hacker2}`);
+
 // Iteration 2: Conditionals
-// if (hacker1.length > hacker2.length) {
-//   console.log(
-//     `The driver has the longest name, it has ${hacker1.length} characters.`
-//   );
-// } else if (hacker1.length < hacker2.length) {
-//   console.log(
-//     `It seems that the navigator has the longest name, it has ${hacker2.length} characters.`
-//   );
-// } else if (hacker1.length === hacker2.length) {
-//   console.log(
-//     `Wow, you both have equally long names, ${hacker1.length} characters!`
-//   );
-// }
-// Iteration 3: Loops
-// const driversUpperCase = hacker1.toUpperCase();
-// let nameWithSpaces = "";
-// for (let i = 0; i < driversUpperCase.length; i++) {
-//   nameWithSpaces += driversUpperCase[i] + " ";
-// }
-// console.log(nameWithSpaces);
+if (hacker1.length > hacker2.length) {
+  console.log(
+    `The driver has the longest name, it has ${hacker1.length} characters.`
+  );
+} else if (hacker1.length < hacker2.length) {
+  console.log(
+    `It seems that the navigator has the longest name, it has ${hacker2.length} characters.`
+  );
+} else if (hacker1.length === hacker2.length) {
+  console.log(
+    `Wow, you both have equally long names, ${hacker1.length} characters!`
+  );
+}
 
+// Iteration 3: Loops
 let navigatorReverse = "";
 const navigatorsLength = hacker2.length - 1;
 for (let i = navigatorsLength; i >= 0; i--) {
   navigatorReverse += hacker2[i];
 }
 console.log(navigatorReverse);
+
+const hackersNames = [hacker1, hacker2].sort();
+if (hackersNames[0] === hacker1) {
+  console.log("The driver's name goes first.");
+} else if (hackersNames[0] === hacker2) {
+  console.log("Yo, the navigator goes first definitely.");
+} else if (hackersNames[0] === hackersNames[1]) {
+  console.log("What?! You both have the same name?");
+}
