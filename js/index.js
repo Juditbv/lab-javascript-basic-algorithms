@@ -78,16 +78,3 @@ function amountOfEt(et) {
   return et.split(" et ").length;
 }
 console.log(amountOfEt(loremParagraphs));
-
-//Bonus 2 (made alone)
-const phraseToCheck = "stack cats";
-
-function palindromeCheck(str) {
-  if (str === str.split().reverse().join()) {
-    console.log(`${str} - It's a palindrome`);
-  } else {
-    console.log(`${str} - It is not a palindrome`);
-  }
-}
-
-palindromeCheck(phraseToCheck);
