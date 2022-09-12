@@ -2,7 +2,7 @@
 const hacker1 = "Andreu";
 console.log(`The driver's name is ${hacker1}`);
 
-const hacker2 = "Miquel";
+const hacker2 = "Miquela";
 console.log(`The navigator's name is ${hacker2}`);
 
 // Iteration 2: Conditionals
@@ -79,4 +79,11 @@ function amountOfEt(et) {
 }
 console.log(amountOfEt(loremParagraphs));
 
-//Bonus 2
+//Bonus 2 (made alone)
+const phraseToCheck = "A man, a plan, a canal, Panama!";
+let cleanedString = phraseToCheck.replace(/\W+/g, "").toLowerCase();
+let reversedString = cleanedString.split("").reverse().join("");
+
+cleanedString === reversedString
+  ? console.log(`${phraseToCheck} it's a palindrome!`)
+  : console.log(`${phraseToCheck} it's not a palindrome :(`);
