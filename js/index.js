@@ -63,18 +63,20 @@ if (hackersNames[0] === hacker1) {
 // lexicographicOrder(hacker1, hacker2);
 
 //Bonus 1 (made in class)
-// const loremParagraphs = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis, elit ut lacinia consequat, ligula nisl viverra nisl, vel euismod turpis felis et metus. Curabitur mollis tellus eros, sit amet viverra leo eleifend vitae. Duis ac porta ante. Suspendisse sit amet nisl nec felis tempor dignissim blandit tincidunt ipsum. Maecenas ultricies nisl ligula, quis sodales ligula molestie in. Vestibulum id mi id mauris congue scelerisque vel id dui. Donec porta ante leo, vel pharetra enim iaculis vitae. Proin sagittis erat eu odio fermentum, id volutpat risus mattis. Nullam venenatis eros at consectetur rhoncus. Fusce maximus mi sollicitudin malesuada molestie. Donec iaculis elit eleifend eleifend lobortis. Aliquam imperdiet tellus a mi sagittis pulvinar. Proin convallis sollicitudin nunc sit amet aliquam. Praesent dictum urna ut maximus imperdiet. Sed vel leo libero. Mauris eget facilisis dolor, sit amet eleifend dui.
+const loremParagraphs = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam iaculis, elit ut lacinia consequat, ligula nisl viverra nisl, vel euismod turpis felis et metus. Curabitur mollis tellus eros, sit amet viverra leo eleifend vitae. Duis ac porta ante. Suspendisse sit amet nisl nec felis tempor dignissim blandit tincidunt ipsum. Maecenas ultricies nisl ligula, quis sodales ligula molestie in. Vestibulum id mi id mauris congue scelerisque vel id dui. Donec porta ante leo, vel pharetra enim iaculis vitae. Proin sagittis erat eu odio fermentum, id volutpat risus mattis. Nullam venenatis eros at consectetur rhoncus. Fusce maximus mi sollicitudin malesuada molestie. Donec iaculis elit eleifend eleifend lobortis. Aliquam imperdiet tellus a mi sagittis pulvinar. Proin convallis sollicitudin nunc sit amet aliquam. Praesent dictum urna ut maximus imperdiet. Sed vel leo libero. Mauris eget facilisis dolor, sit amet eleifend dui.
 
-//   In orci est, molestie pellentesque cursus at, vestibulum ut sem.Curabitur ultrices tellus ut libero ullamcorper interdum.Sed consectetur tellus massa, nec vehicula sapien porta at.Quisque imperdiet risus nec elit placerat lacinia.Phasellus scelerisque, sapien vitae sollicitudin aliquet, odio lorem sollicitudin eros, non vulputate eros erat a lacus.In scelerisque eu ex vel bibendum.Morbi eget purus aliquam, dictum risus et, molestie tortor.Donec porta, orci sed sollicitudin malesuada, ipsum ex accumsan urna, eu imperdiet arcu urna non magna.Donec ullamcorper condimentum eleifend.Proin vitae volutpat mauris.Pellentesque pharetra consectetur lorem sed convallis.Praesent vehicula elit ac ex interdum, sed egestas lorem euismod.
+In orci est, molestie pellentesque cursus at, vestibulum ut sem.Curabitur ultrices tellus ut libero ullamcorper interdum.Sed consectetur tellus massa, nec vehicula sapien porta at.Quisque imperdiet risus nec elit placerat lacinia.Phasellus scelerisque, sapien vitae sollicitudin aliquet, odio lorem sollicitudin eros, non vulputate eros erat a lacus.In scelerisque eu ex vel bibendum.Morbi eget purus aliquam, dictum risus et, molestie tortor.Donec porta, orci sed sollicitudin malesuada, ipsum ex accumsan urna, eu imperdiet arcu urna non magna.Donec ullamcorper condimentum eleifend.Proin vitae volutpat mauris.Pellentesque pharetra consectetur lorem sed convallis.Praesent vehicula elit ac ex interdum, sed egestas lorem euismod.
 
-//   Vestibulum vel nulla in felis porttitor consequat.Nunc et lacus varius, porta ipsum feugiat, sollicitudin nulla.Pellentesque sed posuere erat.Cras tristique sit amet quam in maximus.Fusce fermentum ullamcorper orci, nec dignissim tortor fringilla id.Praesent tincidunt placerat est a aliquet.Vestibulum vestibulum neque ut elit dictum congue.Nulla facilisi.Suspendisse a velit elit.Phasellus ut venenatis ligula.Sed iaculis et diam vestibulum tincidunt.Suspendisse et nisl facilisis, sollicitudin tortor nec, faucibus nibh.`;
+Vestibulum vel nulla in felis porttitor consequat.Nunc et lacus varius, porta ipsum feugiat, sollicitudin nulla.Pellentesque sed posuere erat.Cras tristique sit amet quam in maximus.Fusce fermentum ullamcorper orci, nec dignissim tortor fringilla id.Praesent tincidunt placerat est a aliquet.Vestibulum vestibulum neque ut elit dictum congue.Nulla facilisi.Suspendisse a velit elit.Phasellus ut venenatis ligula.Sed iaculis et diam vestibulum tincidunt.Suspendisse et nisl facilisis, sollicitudin tortor nec, faucibus nibh.`;
 
-// function amountWords(word) {
-//   return word.split(" ").length;
-// }
-// console.log(amountWords(loremParagraphs));
+function amountWords(word) {
+  return word.split(" ").length;
+}
+console.log(amountWords(loremParagraphs));
 
-// function amountOfEt(et) {
-//   return et.split(" et ").length;
-// }
-// console.log(amountOfEt(loremParagraphs));
+function amountOfEt(et) {
+  return et.split(" et ").length;
+}
+console.log(amountOfEt(loremParagraphs));
+
+//Bonus 2
