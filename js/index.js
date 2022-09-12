@@ -21,6 +21,13 @@ if (hacker1.length > hacker2.length) {
 }
 
 // Iteration 3: Loops
+const driversUpperCase = hacker1.toUpperCase();
+let nameWithSpaces = "";
+for (let i = 0; i < driversUpperCase.length; i++) {
+  nameWithSpaces += driversUpperCase[i] + " ";
+}
+console.log(nameWithSpaces);
+
 let navigatorReverse = "";
 const navigatorsLength = hacker2.length - 1;
 for (let i = navigatorsLength; i >= 0; i--) {
